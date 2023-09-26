@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adoutils"
+version = "0.1.0"
+authors = [
+    { name="Gabriel Silva", email="silvaseguel.gabriel@gmail.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "num2words==0.5.12"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Gabriel-Silva-Seguel/ado-utils-python-packages"
+"Bug Tracker" = "https://github.com/Gabriel-Silva-Seguel/ado-utils-python-packages/issues"
